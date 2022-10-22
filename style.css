@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 :root {
-    --gradient-color-red: linear-gradient(90deg.
+    --gradient-color-red: linear-gradient(90deg,
                             hsl(7, 89%, 46%) 15%,
                             hsl(11, 93%, 68%) 100%);
-    --gradient-color-oragen: linear-gradient(90deg.
+    --gradient-color-orange: linear-gradient(90deg,
                             hsl(22, 89%, 46%) 15%,
                             hsl(54, 90%, 45%) 100%);
-    --gradient-color-yellow: linear-gradient(90deg.
+    --gradient-color-yellow: linear-gradient(90deg,
                             hsl(54, 89%, 46%) 15%,
                             hsl(92, 90%, 45%) 100%);
-    --gradient-color-green: linear-gradient(90deg.
+    --gradient-color-green: linear-gradient(90deg,
                             hsl(92, 89%, 46%) 15%,
                             hsl(92, 90%, 45%) 100%);
 
@@ -21,6 +21,27 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+.gradient-color-red,
+.gradient-color-red::after,
+.gradient-color-red {
+    background-image: var(--gradient-color-red);
+}
+.gradient-color-yellow,
+.gradient-color-yellow::after,
+.gradient-color-yellow::before {
+    background-image: var(--gradient-color-yellow);
+}
+.gradient-color-orange,
+.gradient-color-orange::after,
+.gradient-color-orange::before {
+    background-image: var(--gradient-color-orange);
+}
+.gradient-color-green,
+.gradient-color-green::after,
+.gradient-color-green::before {
+    background-image: var(--gradient-color-green);
 }
 
 .flex {
@@ -148,7 +169,6 @@ section::after {
     width: 50%;
     height: 100%;
     border-radius: 4px;
-    background-image: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .percent {
