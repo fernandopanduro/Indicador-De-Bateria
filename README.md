@@ -1,5 +1,5 @@
 
-<h1 align="center">📱Bateria - Glassmorphism </h1>
+<h1 align="center">🔋Bateria - Glassmorphism </h1>
 
 <p align="center"> Indicador de carga con diseño glassmorphism, puede realizar indicarte el estado de tu bateria en todo momento. </p> 
 
@@ -11,8 +11,9 @@ https://user-images.githubusercontent.com/92656447/197396154-50c2fb15-7d6e-4457-
 
 ## 🛠️ Construido 
 
-* [React](https://create-react-app.dev/) - El framework web usado
-* [NPM](https://www.npmjs.com/) - Manejador de dependencias
+* [Javasript](https://developer.mozilla.org/es/docs/Web/JavaScript) - El lenguaje programacion web usado
+* [HTML](https://developer.mozilla.org/es/docs/Web/HTML) - El lenguaje web usado
+* [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Manejador de estilos
 * [Demo](https://batteryfernando.netlify.app/) - Ultima version funcional
 
 ## 🧑‍💻 Instalacion 
