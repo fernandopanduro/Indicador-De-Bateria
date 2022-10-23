@@ -49,6 +49,6 @@ Después de ejecutar el servidor de desarrollo, el sitio debería ejecutarse en 
 
 
 ---
-⌨️ con ❤️ por [Fer](https://github.com/fernandopanduro) 👑
+⌨️ con ❤️ por 👑 [Fer](https://github.com/fernandopanduro) 
 
 
